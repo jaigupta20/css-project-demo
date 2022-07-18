@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Project Demo</title>
+
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <!-- SIGN UP -->
+
+      <div class="signup">
+        <h2>sign up</h2>
+        <label for="email">Email</label>
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" name="email" id="email" />
+        <label for="password">Password</label>
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" name="password" id="password" />
+        <input type="button" value="SIGN UP" class="button" />
+        <div class="line1"></div>
+        <span>OR</span>
+        <div class="line2"></div>
+
+        <div class="social">
+          <i class="icons fa-brands fa-google"></i>
+          <i class="icons fa-brands fa-facebook-f"></i>
+          <i class="icons fa-brands fa-linkedin-in"></i>
+        </div>
+        <h4>Already a user? <a href="#">login</a></h4>
+      </div>
+
+      <!-- LOGIN -->
+      <div class="login">
+        <h2>login</h2>
+        <label for="email">Email</label>
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" name="email" id="email" />
+        <label for="password">Password</label>
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" name="password" id="password" />
+        <input type="checkbox" name="remember" id="remember" />
+        <label for="remember" id="rememberLabel">Remember me?</label>
+        <input type="button" value="LOGIN" class="button loginbtn" />
+        <p>Forgot Password?</p>
+        <div class="line1"></div>
+        <span>OR</span>
+        <div class="line2"></div>
+
+        <div class="social">
+          <i class="icons fa-brands fa-google"></i>
+          <i class="icons fa-brands fa-facebook-f"></i>
+          <i class="icons fa-brands fa-linkedin-in"></i>
+        </div>
+        <h4>Need an account? <a href="#">sign up</a></h4>
+      </div>
+    </section>
+  </body>
+</html>
